@@ -1,0 +1,15 @@
+FROM python:3.9-slim
+
+# Installer les modules Python
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Copier le script
+COPY api.py /app/
+WORKDIR /app
+
+# Exposer le port Flask
+EXPOSE 5000
+
+# Commande pour démarrer le serveur
+CMD ["python", "api.py"]

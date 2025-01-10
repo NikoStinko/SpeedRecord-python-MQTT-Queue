@@ -1,0 +1,12 @@
+FROM python:3.9-slim
+
+# Installer RabbitMQ et modules Python
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Copier le script
+COPY main.py /app/
+WORKDIR /app
+
+# Commande pour exécuter le script
+CMD ["python", "main.py"]

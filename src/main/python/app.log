@@ -1,0 +1,58 @@
+2025-01-09 15:08:10,057 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-2, 'Name or service not known')
+2025-01-09 15:08:10,058 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-2, 'Name or service not known')
+2025-01-09 15:08:10,058 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-2, 'Name or service not known')
+2025-01-09 15:08:10,058 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-2, 'Name or service not known')
+2025-01-09 15:08:10,058 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-2, 'Name or service not known').
+2025-01-09 15:08:10,058 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-2, 'Name or service not known').
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-2, 'Name or service not known').
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-2, 'Name or service not known').
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,059 - pika.adapters.utils.connection_workflow - ERROR - AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.utils.connection_workflow - ERROR - AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.utils.connection_workflow - ERROR - AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Error in _create_connection().
+Traceback (most recent call last):
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Error in _create_connection().
+Traceback (most recent call last):
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2025-01-09 15:08:10,060 - pika.adapters.blocking_connection - ERROR - Error in _create_connection().
+Traceback (most recent call last):
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2025-01-09 15:08:10,061 - pika.adapters.blocking_connection - ERROR - Error in _create_connection().
+Traceback (most recent call last):
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/home/nodewiz/.local/lib/python3.10/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+2025-01-09 15:09:45,816 - __main__ - INFO - Terminating threads...
+2025-01-09 15:09:45,817 - __main__ - INFO - All threads terminated.

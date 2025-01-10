@@ -1,0 +1,23 @@
+ [*] Waiting for messages. To exit press CTRL+C
+ [*] Waiting for messages. To exit press CTRL+C
+ [*] Waiting for messages. To exit press CTRL+C
+ [x] Received 'Speed: 80 km/h'
+ [x] Sent 'Speed: 80 km/h'
+ [*] Inserted speed: 80.0 km/h into the database
+ [x] Sent 'Speed: 98 km/h'
+ [x] Received 'Speed: 98 km/h'
+ [!] Warning: Speed exceeds 90 km/h!
+ [*] Voyant: Allumé
+ [x] Sent 'Speed: 56 km/h'
+ [x] Received 'Speed: 56 km/h'
+ [*] Inserted speed: 56.0 km/h into the database
+ [x] Sent 'Speed: 79 km/h'
+ [x] Received 'Speed: 79 km/h'
+ [*] Inserted speed: 79.0 km/h into the database
+ [x] Sent 'Speed: 53 km/h'
+ [x] Received 'Speed: 53 km/h'
+ [*] Voyant: Eteint
+Terminating threads...
+ [x] Sent 'Speed: 53 km/h'
+ [x] Received 'Speed: 53 km/h'
+ [*] Inserted speed: 53.0 km/h into the database
